@@ -1,6 +1,6 @@
-stage('download') {
+stage('download_loans') {
 	git 'https://github.com/sunildevops77/maven.git'
-stage('build') {
+stage('build_loans') {
 	 sh label: '', script: 'mvn package'
    }
    
